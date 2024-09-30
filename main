@@ -1,0 +1,23 @@
+#include <iostream>
+#include "Char_stats.h"
+using namespace std;
+
+int main() {
+    // Write C++ code here
+   Character MC;
+   Character Foe;
+   
+   MC.strength = 5;
+   MC.health = 5;
+   MC.CharName = "MainCharacter";
+   Foe.strength = 5;
+   Foe.health = 5;
+   Foe.CharName = "Enemy";
+   
+   cout << MC.strength << "\n";
+   cout << MC.health << "\n";
+   cout << MC.CharName << "\n";
+   
+
+    return 0;
+}
